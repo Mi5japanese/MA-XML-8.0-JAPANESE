@@ -2,31 +2,31 @@
 <resources>
     <string-array name="wifi_status">
         <item></item>
-        <item>Scanning…</item>
-        <item>Connecting…</item>
-        <item>Authenticating…</item>
-        <item>Obtaining IP address…</item>
-        <item>Connected</item>
-        <item>Suspended</item>
-        <item>Disconnecting…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
-        <item>Temporarily avoiding poor connection</item>
+        <item>スキャン中…</item>
+        <item>接続中…</item>
+        <item>認証中…</item>
+        <item>IPアドレスを取得中…</item>
+        <item>接続済み</item>
+        <item>保留中</item>
+        <item>切断中…</item>
+        <item>切断されました</item>
+        <item>失敗しました</item>
+        <item>ブロック中</item>
+        <item>接続不良により一時的に無効</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Scanning…</item>
-        <item>Connecting to %1$s…</item>
-        <item>Authenticating with %1$s…</item>
-        <item>Obtaining IP address from %1$s…</item>
-        <item>Connected to %1$s</item>
-        <item>Suspended</item>
-        <item>Disconnecting from %1$s…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
-        <item>Temporarily avoiding poor connection</item>
+        <item>スキャン中…</item>
+        <item>接続中…</item>
+        <item>認証中…</item>
+        <item>IPアドレスを取得中…</item>
+        <item>接続済み</item>
+        <item>保留中</item>
+        <item>切断中…</item>
+        <item>切断されました</item>
+        <item>失敗しました</item>
+        <item>ブロック中</item>
+        <item>接続不良により一時的に無効</item>
     </string-array>
     <string-array name="status_bar_style_entries">
         <item>Combined</item>
@@ -37,22 +37,22 @@
         <item>1</item>
     </string-array>
     <string-array name="timezone_filters">
-        <item>America</item>
-        <item>Europe</item>
-        <item>Africa</item>
-        <item>Asia</item>
-        <item>Australia</item>
-        <item>Pacific</item>
-        <item>All</item>
+        <item>アメリカ</item>
+        <item>ヨーロッパ</item>
+        <item>アフリカ</item>
+        <item>アジア</item>
+        <item>オーストラリア</item>
+        <item>太平洋</item>
+        <item>すべて</item>
     </string-array>
     <string-array name="screen_timeout_entries">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>Never</item>
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分</item>
+        <item>2分</item>
+        <item>5分</item>
+        <item>10分</item>
+        <item>オフにしない</item>
     </string-array>
     <string-array name="screen_timeout_values">
         <item>15000</item>
@@ -64,14 +64,14 @@
         <item>2147483647</item>
     </string-array>
     <string-array name="dream_timeout_entries">
-        <item>Never</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+        <item>起動しない</item>
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分</item>
+        <item>2分</item>
+        <item>5分</item>
+        <item>10分</item>
+        <item>30分</item>
     </string-array>
     <string-array name="dream_timeout_values">
         <item>0</item>
@@ -84,15 +84,15 @@
         <item>1800000</item>
     </string-array>
     <string-array name="lock_after_timeout_entries">
-        <item>Immediately</item>
-        <item>5 seconds</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+        <item>今すぐ</item>
+        <item>5秒</item>
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分</item>
+        <item>2分</item>
+        <item>5分</item>
+        <item>10分</item>
+        <item>30分</item>
     </string-array>
     <string-array name="lock_after_timeout_values">
         <item>0</item>
@@ -120,15 +120,15 @@
         <item>godzilla</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Very slow</item>
-        <item>Slow</item>
-        <item>Normal</item>
-        <item>Fast</item>
-        <item>Faster</item>
-        <item>Very fast</item>
-        <item>Rapid</item>
-        <item>Very rapid</item>
-        <item>Fastest</item>
+        <item>非常に遅い</item>
+        <item>遅い</item>
+        <item>標準</item>
+        <item>速い</item>
+        <item>より速い</item>
+        <item>非常に速い</item>
+        <item>高速</item>
+        <item>非常に高速</item>
+        <item>最高速</item>
     </string-array>
     <string-array name="tts_rate_values">
         <item>60</item>
@@ -142,11 +142,11 @@
         <item>400</item>
     </string-array>
     <string-array name="tts_pitch_entries">
-        <item>Very low</item>
-        <item>Low</item>
-        <item>Normal</item>
-        <item>High</item>
-        <item>Very high</item>
+        <item>非常に低い</item>
+        <item>低い</item>
+        <item>標準</item>
+        <item>高い</item>
+        <item>非常に高い</item>
     </string-array>
     <string-array name="tts_pitch_values">
         <item>50</item>
@@ -216,33 +216,33 @@
         <item>PIN from this device</item>
     </string-array>
     <string-array name="wifi_p2p_status">
-        <item>Connected</item>
-        <item>Invited</item>
-        <item>Unsuccessful</item>
-        <item>Available</item>
-        <item>Out-of-range</item>
+        <item>接続済み</item>
+        <item>招待済み</item>
+        <item>失敗しました</item>
+        <item>利用可能</item>
+        <item>圏外</item>
     </string-array>
     <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>1 hour</item>
-        <item>Never time out</item>
+        <item>2分</item>
+        <item>5分</item>
+        <item>1時間</item>
+        <item>タイムアウトしない</item>
     </string-array>
     <string-array name="wifi_signal">
-        <item>Poor</item>
-        <item>Fair</item>
-        <item>Good</item>
-        <item>Excellent</item>
+        <item>弱</item>
+        <item>中</item>
+        <item>強</item>
+        <item>非常に強い</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries">
-        <item>Always</item>
-        <item>Only when plugged in</item>
-        <item>Never</item>
+        <item>常に使用する</item>
+        <item>電源接続時にのみ使用する</item>
+        <item>スリープにしない</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries_wifi_only">
-        <item>Always</item>
-        <item>Only when plugged in</item>
-        <item>Never</item>
+        <item>常に使用</item>
+        <item>電源接続時にのみ使用する</item>
+        <item>使用しない</item>
     </string-array>
     <string-array name="wifi_sleep_policy_values">
         <item>2</item>
@@ -250,13 +250,13 @@
         <item>0</item>
     </string-array>
     <string-array name="data_usage_data_range">
-        <item>Last 30 days</item>
-        <item>Set usage cycle...</item>
+        <item>過去30日間</item>
+        <item>使用サイクルを設定...</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">
-        <item>Automatic</item>
-        <item>5 GHz only</item>
-        <item>2.4 GHz only</item>
+        <item>自動</item>
+        <item>5 GHzのみ</item>
+        <item>2.4 GHzのみ</ite
     </string-array>
     <string-array name="wifi_frequency_band_values">
         <item>0</item>
@@ -264,9 +264,9 @@
         <item>2</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
-        <item>Usage time</item>
-        <item>Last time used</item>
-        <item>App name</item>
+        <item>使用時間</item>
+        <item>前回の使用</item>
+        <item>アプリ名</item>
     </string-array>
     <string-array name="wifi_eap_entries">
         <item>PEAP</item>
@@ -275,12 +275,12 @@
         <item>PWD</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
-        <item>None</item>
+        <item>なし</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_phase2_entries">
-        <item>None</item>
+        <item>なし</item>
         <item>PAP</item>
         <item>MSCHAP</item>
         <item>MSCHAPV2</item>
@@ -288,12 +288,12 @@
     </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
-        <item>Static</item>
+        <item>静的</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
-        <item>None</item>
-        <item>Manual</item>
-        <item>Proxy Auto-Config</item>
+        <item>なし</item>
+        <item>手動</item>
+        <item>Proxyの自動設定</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>None</item>
@@ -366,9 +366,9 @@
         <item>gid</item>
     </string-array>
     <string-array name="app_install_location_entries">
-        <item>Internal device storage</item>
-        <item>Removable SD card</item>
-        <item>Let the system decide</item>
+        <item>内部端末ストレージ</item>
+        <item>リムーバブルSDカード</item>
+        <item>システムで判断する</item>
     </string-array>
     <string-array name="app_install_location_values">
         <item>device</item>
@@ -376,11 +376,11 @@
         <item>auto</item>
     </string-array>
     <string-array name="app_ops_categories">
-        <item>Location</item>
-        <item>Personal</item>
-        <item>Messaging</item>
-        <item>Media</item>
-        <item>Device</item>
+        <item>位置情報</item>
+        <item>プライベート</item>
+        <item>メッセージ</item>
+        <item>メディア</item>
+        <item>端末</item>
     </string-array>
     <string-array name="app_ops_summaries">
         <item>coarse location</item>
@@ -1526,12 +1526,12 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>"May slow down device's performance"</item>
     </string-array>
     <string-array name="fluency_mode_confirms">
-        <item>Reboot your device to apply this setting?</item>
-        <item>Reboot your device to apply this setting?</item>
+        <item>変更を反映するために端末を再起動しますか？</item>
+        <item>変更を反映するために端末を再起動しますか？</item>
     </string-array>
     <string-array name="screen_resolution_entries">
-        <item>Ultrahigh (2K)</item>
-        <item>Normal (720p)</item>
+        <item>最高 (2K)</item>
+        <item>標準 (720p)</item>
     </string-array>
     <string-array name="screen_resolution_values">
         <item>1440</item>
@@ -1735,13 +1735,13 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>4</item>
     </integer-array>
     <string-array name="alarm_repeat_type">
-        <item>Every day</item>
-        <item>Weekdays</item>
-        <item>Custom</item>
+        <item>毎日</item>
+        <item>平日</item>
+        <item>カスタム</item>
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
-        <item>Every day</item>
-        <item>Weekdays</item>
-        <item>Custom</item>
+        <item>毎日</item>
+        <item>平日</item>
+        <item>カスタム</item>
     </string-array>
 </resources>
