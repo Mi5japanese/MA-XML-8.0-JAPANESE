@@ -2,84 +2,75 @@
 <resources>
   <string name="Accounts_settings_title">Accounts</string>
   <string name="aaid_info">"
-Advertising identifier is a permanent ID unique to your device. Vendors use it to select advertising content that will be more useful to you.
+広告識別子は、お使いのデバイスに固有の永続的なIDです。ベンダーは、あなたにより役立つ内容の広告を選ぶために広告識別子を使用します。
 
 If you choose not to use personalized ads, the amount of advertising won't be reduced, but the amount of ads useful to you will decrease significantly."</string>
-  <string name="about_settings">About phone</string>
-  <string name="about_settings_summary">View legal info, status, software version</string>
-  <string name="ac_enable_summary">Set a password for individual apps</string>
-  <string name="ac_enable_title">App Lock</string>
-  <string name="ac_privacy_mode_sum">Require a password to turn Guest mode off</string>
-  <string name="ac_privacy_mode_title">Password</string>
-  <string name="ac_set_apps_title">Choose apps to lock</string>
-  <string name="accelerometer_summary_off">Switch orientation automatically when rotating phone</string>
-  <string name="accelerometer_summary_on">Switch orientation automatically when rotating phone</string>
-  <string name="accelerometer_title">Auto-rotate screen</string>
-  <string name="access_control_app_entry_multiple">Open %s</string>
-  <string name="access_control_app_entry_single">Open app</string>
-  <string name="access_control_need_password">"%s has been protected
-"</string>
-  <string name="access_control_need_to_unlock">Password required:</string>
-  <string name="access_control_no_back_footer">Touch [icon] to exit</string>
-  <string name="access_control_password_title">Password</string>
-  <string name="access_control_recording_intro_header">Draw an unlock pattern:</string>
-  <string name="access_control_reset_by_account">Sign in to your Mi Account to reset password</string>
-  <string name="access_point_names">Access point names</string>
-  <string name="accessibility_captioning_title">Captions</string>
-  <string name="accessibility_category_personal">Personal profile accounts</string>
-  <string name="accessibility_category_work">Work profile accounts - %s</string>
-  <string name="accessibility_display_daltonizer_preference_subtitle">This feature is experimental and may affect performance.</string>
-  <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
-  <string name="accessibility_display_inversion_preference_subtitle">(Experimental) May affect performance</string>
-  <string name="accessibility_display_inversion_preference_title">Color inversion</string>
-  <string name="accessibility_display_title">Display</string>
-  <string name="accessibility_enable">Accessibility</string>
-  <string name="accessibility_feature_or_input_method_not_allowed">Not allowed by your organization</string>
-  <string name="accessibility_feature_state_off">Off</string>
-  <string name="accessibility_feature_state_on">On</string>
-  <string name="accessibility_global_gesture_preference_description">"When this feature is turned on, you can quickly enable accessibility features in two steps:
+  <string name="about_settings">端末情報</string>
+  <string name="about_settings_summary">端末情報、規約、バージョン情報</string>
+  <string name="ac_enable_summary">個々のアプリのパスワードを設定</string>
+  <string name="ac_enable_title">アプリのロック</string>
+  <string name="ac_privacy_mode_sum">ゲストモードをオフにする時はパスワードを要求</string>
+  <string name="ac_privacy_mode_title">パスワード</string>
+  <string name="ac_set_apps_title">ロックするアプリを選択</string>
+  <string name="accelerometer_summary_off">画面の向きに合わせて縦横表示を切り替える</string>
+  <string name="accelerometer_summary_on">画面の向きに合わせて縦横表示を切り替える</string>
+  <string name="accelerometer_title">画面の自動回転</string>
+  <string name="access_control_app_entry_multiple">%sを開く</string>
+  <string name="access_control_app_entry_single">アプリを開く</string>
+  <string name="access_control_need_password">％sは保護されています</string>
+  <string name="access_control_need_to_unlock">パスワードが必要です:</string>
+  <string name="access_control_no_back_footer">[アイコン]をタッチして終了</string>
+  <string name="access_control_password_title">パスワード</string>
+  <string name="access_control_recording_intro_header">アンロックパターンを描いてください:</string>
+  <string name="access_control_reset_by_account">パスワードをリセットするには、Miアカウントにサインインして下さい</string>
+  <string name="access_point_names">アクセスポイント名</string>
+  <string name="accessibility_captioning_title">字幕</string>
+  <string name="accessibility_category_personal">個人用プロファイルアカウント</string>
+  <string name="accessibility_category_work">仕事用プロファイルアカウント - %s</string>
+  <string name="accessibility_display_daltonizer_preference_subtitle">この機能は試験運用機能であり、パフォーマンスに影響することがあります。</string>
+  <string name="accessibility_display_daltonizer_preference_title">色補正</string>
+  <string name="accessibility_display_inversion_preference_subtitle">（試験運用機能）パフォーマンスに影響することがあります</string>
+  <string name="accessibility_display_inversion_preference_title">色反転</string>
+  <string name="accessibility_display_title">ディスプレイ</string>
+  <string name="accessibility_enable">アクセシビリティ</string>
+  <string name="accessibility_feature_or_input_method_not_allowed">組織によって許可されていません</string>
+  <string name="accessibility_feature_state_off">OFF</string>
+  <string name="accessibility_feature_state_on">ON</string>
+  <string name="accessibility_global_gesture_preference_description">"この機能を有効にすると、次の2つのステップでユーザー補助機能をすぐに有効にできます:
 
-Step 1: Press and hold the power button until you hear a sound or feel a vibration.
+ステップ1: 音が鳴るか振動するまで電源ボタンを押し続けます。
 
-Step 2: Touch and hold two fingers until you hear audio confirmation.
+ステップ2: 確認音が鳴るまで2本の指でタップして押し続けます。
 
-If the device has multiple users, using this shortcut on the lock screen temporarily enables accessibility until the device is unlocked."</string>
-  <string name="accessibility_global_gesture_preference_summary_off">Off</string>
-  <string name="accessibility_global_gesture_preference_summary_on">On</string>
-  <string name="accessibility_global_gesture_preference_title">Accessibility shortcut</string>
-  <string name="accessibility_lock_screen_progress">%1$d of %2$d characters used</string>
-  <string name="accessibility_long_press_timeout_preference_title">Touch &amp; hold delay</string>
-  <string name="accessibility_menu_item_settings">Settings</string>
-  <string name="accessibility_no_services_installed">No services installed</string>
-  <string name="accessibility_no_wifi">Wifi disconnected.</string>
-  <string name="accessibility_personal_account_title">Personal account - %s</string>
-  <string name="accessibility_power_button_ends_call_prerefence_title">Power button ends call</string>
-  <string name="accessibility_screen_magnification_enable">Magnification gestures</string>
-  <string name="accessibility_screen_magnification_summary">"When this feature is turned on, you can zoom in and out by triple-tapping the screen.
-
-While zoomed in, you can:
-"&lt;li&gt;&lt;ul&gt;"Pan: Drag two or more fingers across the screen.
-"&lt;li&gt;Adjust zoom level: Pinch two or more fingers together or spread them apart.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;"
-
-You can also temporarily magnify what&amp;#8217;s under your finger by triple-tapping and holding. In this magnified state, you can drag your finger to explore different parts of the screen. Lift your finger to return to your previous state.
-
-Note: Triple-tap for magnification works everywhere except the keyboard and navigation bar."</string>
-  <string name="accessibility_screen_magnification_title">Magnification gestures</string>
-  <string name="accessibility_service_default_description">No description provided.</string>
-  <string name="accessibility_services_title">Services</string>
-  <string name="accessibility_settings">Accessibility</string>
-  <string name="accessibility_settings_title">Accessibility settings</string>
-  <string name="accessibility_sync_disabled">Sync disabled</string>
-  <string name="accessibility_sync_enabled">Sync enabled</string>
-  <string name="accessibility_sync_error">Sync error.</string>
-  <string name="accessibility_sync_in_progress">Syncing now</string>
-  <string name="accessibility_system_title">System</string>
-  <string name="accessibility_toggle_high_text_contrast_preference_title">High contrast text</string>
-  <string name="accessibility_toggle_large_text_preference_title">Large text</string>
-  <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">Update screen magnification on app transitions</string>
-  <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Auto update screen magnification</string>
-  <string name="accessibility_toggle_screen_magnification_preference_title">Screen magnification</string>
-  <string name="accessibility_toggle_speak_password_preference_title">Speak passwords</string>
+複数のユーザーでこの端末を使用している場合は、ロック画面でこのショートカットを使用すると、端末がロック解除されるまでユーザー補助機能が一時的に有効になります。"</string>
+  <string name="accessibility_global_gesture_preference_summary_off">OFF</string>
+  <string name="accessibility_global_gesture_preference_summary_on">ON</string>
+  <string name="accessibility_global_gesture_preference_title">ユーザー補助のショートカット</string>
+  <string name="accessibility_lock_screen_progress">%2$d文字のうち%1$d文字が使用されています</string>
+  <string name="accessibility_long_press_timeout_preference_title">押し続ける時間</string>
+  <string name="accessibility_menu_item_settings">設定</string>
+  <string name="accessibility_no_services_installed">インストールされているサービスはありません</string>
+  <string name="accessibility_no_wifi">WiFiが切断されました</string>
+  <string name="accessibility_personal_account_title">個人用アカウント - %s</string>
+  <string name="accessibility_power_button_ends_call_prerefence_title">電源ボタンで通話を終了</string>
+  <string name="accessibility_screen_magnification_enable">拡大のジェスチャー</string>
+  <string name="accessibility_screen_magnification_summary">"この機能をオンにすると、画面をトリプルタップして画面を拡大/縮小できます。\n\n拡大した画面で次のことを実行できます:\n"<ul><li>"パン: 2本以上の指で画面上をドラッグします。"</li>\n<li>"拡大レベルの調整: 2本以上の指でピンチイン/ピンチアウトします。"</string>
+  <string name="accessibility_screen_magnification_title">拡大操作</string>
+  <string name="accessibility_service_default_description">説明はありません。</string>
+  <string name="accessibility_services_title">サービス</string>
+  <string name="accessibility_settings">ユーザー補助</string>
+  <string name="accessibility_settings_title">ユーザー補助の設定</string>
+  <string name="accessibility_sync_disabled">同期は無効になっています</string>
+  <string name="accessibility_sync_enabled">同期が有効です</string>
+  <string name="accessibility_sync_error">同期エラー。</string>
+  <string name="accessibility_sync_in_progress">同期しています</string>
+  <string name="accessibility_system_title">システム</string>
+  <string name="accessibility_toggle_high_text_contrast_preference_title">高コントラストテキスト</string>
+  <string name="accessibility_toggle_large_text_preference_title">大きい文字サイズ</string>
+  <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">アプリの遷移時に画面の拡大を更新</string>
+  <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">画面の拡大を自動更新</string>
+  <string name="accessibility_toggle_screen_magnification_preference_title">画面の拡大</string>
+  <string name="accessibility_toggle_speak_password_preference_title">パスワードの音声出力</string>
   <string name="accessibility_wifi_off">Wifi off.</string>
   <string name="accessibility_wifi_one_bar">Wifi one bar.</string>
   <string name="accessibility_wifi_signal_full">Wifi signal full.</string>
@@ -89,15 +80,15 @@ Note: Triple-tap for magnification works everywhere except the keyboard and navi
   <string name="account_add">Add</string>
   <string name="account_autostar_label">Autostart</string>
   <string name="account_list">Other accounts</string>
-  <string name="account_settings">Accounts</string>
-  <string name="account_settings_menu_auto_sync">Auto-sync data</string>
-  <string name="account_settings_menu_auto_sync_personal">Auto-sync personal data</string>
-  <string name="account_settings_menu_auto_sync_work">Auto-sync work data</string>
-  <string name="account_settings_title">Accounts</string>
-  <string name="account_sync_settings_title">Sync</string>
+  <string name="account_settings">アカウントの設定</string>
+  <string name="account_settings_menu_auto_sync">データの自動同期</string>
+  <string name="account_settings_menu_auto_sync_personal">個人データの自動同期</string>
+  <string name="account_settings_menu_auto_sync_work">作業データの自動同期</string>
+  <string name="account_settings_title">アカウント</string>
+  <string name="account_sync_settings_title">同期</string>
   <string name="activating">Activating…</string>
-  <string name="active_device_admin_msg">Device administrator</string>
-  <string name="active_input_method_subtypes">Active input methods</string>
+  <string name="active_device_admin_msg">デバイス管理者</string>
+  <string name="active_input_method_subtypes">有効な入力方法</string>
   <string name="activity_not_found">Application is not installed on your phone.</string>
   <string name="activity_picker_label">Choose activity</string>
   <string name="ad_service">Ad services</string>
@@ -856,7 +847,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="crypt_keeper_confirm_title">Encrypt?</string>
   <string name="crypt_keeper_content">You can encrypt your accounts, settings, downloaded apps and their data, media, and other files.</string>
   <string name="crypt_keeper_content_title">Encrypt device</string>
-  <string name="crypt_keeper_data_corrupt_summary">"The password you entered is correct, but unfortunately your data is corrupt. 
+  <string name="crypt_keeper_data_corrupt_summary">"The password you entered is correct, but unfortunately your data is corrupt.
 
 To resume using your phone, you need to perform a factory reset. When you set up your phone after the reset, you’ll have an opportunity to restore any data that was backed up to your Google Account."</string>
   <string name="crypt_keeper_data_corrupt_title">Decryption unsuccessful</string>
@@ -870,7 +861,7 @@ Encryption takes an hour or more. You must start with a charged battery and keep
   <string name="crypt_keeper_encrypt_title">Encrypt phone</string>
   <string name="crypt_keeper_encrypted_summary">Encrypted</string>
   <string name="crypt_keeper_enter_password">Type your password</string>
-  <string name="crypt_keeper_failed_summary">"Encryption was interrupted and can’t complete. As a result, the data on your phone is no longer accessible. 
+  <string name="crypt_keeper_failed_summary">"Encryption was interrupted and can’t complete. As a result, the data on your phone is no longer accessible.
 
 To resume using your phone, you need to perform a factory reset. When you set up your phone after the reset, you’ll have an opportunity to restore any data that was backed up to your Google Account."</string>
   <string name="crypt_keeper_failed_title">Encryption unsuccessful</string>
@@ -1263,19 +1254,19 @@ This setting affects all users on this phone."</string>
   <string name="encrypt_talkback_dialog_require_pin">Require PIN?</string>
   <string name="encryption_continue_button">Continue</string>
   <string name="encryption_interstitial_header">Secure start-up</string>
-  <string name="encryption_interstitial_message_password">"You can further protect this device by requiring your password before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms. 
+  <string name="encryption_interstitial_message_password">"You can further protect this device by requiring your password before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms.
 
 This helps protect data on lost or stolen devices."</string>
   <string name="encryption_interstitial_message_password_for_fingerprint">"In addition to using your fingerprint to unlock your device, you can further protect this device by requiring your password before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms.
 
 This helps protect data on lost or stolen devices."</string>
-  <string name="encryption_interstitial_message_pattern">"You can further protect this device by requiring your pattern before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms. 
+  <string name="encryption_interstitial_message_pattern">"You can further protect this device by requiring your pattern before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms.
 
 This helps protect data on lost or stolen devices."</string>
   <string name="encryption_interstitial_message_pattern_for_fingerprint">"In addition to using your fingerprint to unlock your device, you can further protect this device by requiring your pattern before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms.
 
 This helps protect data on lost or stolen devices."</string>
-  <string name="encryption_interstitial_message_pin">"You can further protect this device by requiring your PIN before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms. 
+  <string name="encryption_interstitial_message_pin">"You can further protect this device by requiring your PIN before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms.
 
 This helps protect data on lost or stolen devices."</string>
   <string name="encryption_interstitial_message_pin_for_fingerprint">"In addition to using your fingerprint to unlock your device, you can further protect this device by requiring your PIN before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms.
@@ -1807,11 +1798,11 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="lockpassword_choose_for_second_user">Set Second space password</string>
   <string name="lockpassword_choose_lock_generic_header">Unlock selection</string>
   <string name="lockpassword_choose_your_password_header">Choose your password</string>
-  <string name="lockpassword_choose_your_password_second_space">"Set password 
+  <string name="lockpassword_choose_your_password_second_space">"Set password
  for Second space"</string>
   <string name="lockpassword_choose_your_pattern_header">Choose your pattern</string>
   <string name="lockpassword_choose_your_pin_header">Set your PIN</string>
-  <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN 
+  <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN
  for Second space"</string>
   <string name="lockpassword_confirm_for_second_user">Confirm your Second space password</string>
   <string name="lockpassword_confirm_passwords_dont_match">Passwords don’t match</string>
@@ -3466,23 +3457,23 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="storage_detail_apps">Apps</string>
   <string name="storage_detail_audio">Audio</string>
   <string name="storage_detail_cached">Cached data</string>
-  <string name="storage_detail_dialog_other">"Other includes shared files saved by apps, files downloaded from the Internet or Bluetooth, Android files, and so on. 
+  <string name="storage_detail_dialog_other">"Other includes shared files saved by apps, files downloaded from the Internet or Bluetooth, Android files, and so on.
 
 To see the entire contents of this ^1, touch Explore."</string>
-  <string name="storage_detail_dialog_user">"^1 may have saved photos, music, movies, apps, or other data that is taking up ^2 of storage. 
+  <string name="storage_detail_dialog_user">"^1 may have saved photos, music, movies, apps, or other data that is taking up ^2 of storage.
 
 To view details, switch to ^1."</string>
   <string name="storage_detail_explore">Explore ^1</string>
   <string name="storage_detail_images">Images</string>
   <string name="storage_detail_other">Other</string>
   <string name="storage_detail_videos">Videos</string>
-  <string name="storage_dialog_unmountable">"This ^1 is corrupted. 
+  <string name="storage_dialog_unmountable">"This ^1 is corrupted.
 
 To use this ^1, you have to set it up first."</string>
-  <string name="storage_dialog_unmounted">"This ^1 is safely ejected, but still available. 
+  <string name="storage_dialog_unmounted">"This ^1 is safely ejected, but still available.
 
 To use this ^1, you have to mount it first."</string>
-  <string name="storage_dialog_unsupported">"This device doesn’t support this ^1. 
+  <string name="storage_dialog_unsupported">"This device doesn’t support this ^1.
 
 To use this ^1 with this device, you have to set it up first."</string>
   <string name="storage_external_title">Portable storage</string>
@@ -3491,24 +3482,24 @@ To use this ^1 with this device, you have to set it up first."</string>
   <string name="storage_format_success">%1$s is formatted</string>
   <string name="storage_internal_forget_confirm">All the apps, photos, and data stored on this ^1 will be lost forever.</string>
   <string name="storage_internal_forget_confirm_title">Forget ^1?</string>
-  <string name="storage_internal_forget_details">"To use the apps, photos, or data this ^1 contains, reinsert it. 
+  <string name="storage_internal_forget_details">"To use the apps, photos, or data this ^1 contains, reinsert it.
 
-Alternatively, you can choose to forget this storage if the device isn’t available. 
+Alternatively, you can choose to forget this storage if the device isn’t available.
 
-If you choose to forget, all the data the device contains will be lost forever. 
+If you choose to forget, all the data the device contains will be lost forever.
 
 You can reinstall the apps later, but their data stored on this device will be lost."</string>
-  <string name="storage_internal_format_details">"After formatting, you can use this ^1 in other devices. 
+  <string name="storage_internal_format_details">"After formatting, you can use this ^1 in other devices.
 
-All data on this ^1 will be erased. Consider backing up first. 
+All data on this ^1 will be erased. Consider backing up first.
 
-"&lt;b&gt;Back up photos &amp;amp; other media&lt;/b&gt;" 
-Move your media files to alternative storage on this device, or transfer them to a computer using a USB cable. 
+"&lt;b&gt;Back up photos &amp;amp; other media&lt;/b&gt;"
+Move your media files to alternative storage on this device, or transfer them to a computer using a USB cable.
 
-"&lt;b&gt;Back up apps&lt;/b&gt;" 
+"&lt;b&gt;Back up apps&lt;/b&gt;"
 All apps stored on this ^1 will be uninstalled and their data will be erased. To keep these apps, move them to alternative storage on this device."</string>
   <string name="storage_internal_title">Device storage</string>
-  <string name="storage_internal_unmount_details">&lt;b&gt;When you eject this ^1, apps stored on it will stop working, and media files stored on it will not be available until it is reinserted.&lt;/b&gt;" 
+  <string name="storage_internal_unmount_details">&lt;b&gt;When you eject this ^1, apps stored on it will stop working, and media files stored on it will not be available until it is reinserted.&lt;/b&gt;"
 
 This ^1 is formatted to work on this device only. It won&amp;#8217;t work on any others."</string>
   <string name="storage_label">Storage</string>
@@ -3544,13 +3535,13 @@ This ^1 is formatted to work on this device only. It won&amp;#8217;t work on any
   <string name="storage_volume_summary">%1$s used of %2$s</string>
   <string name="storage_volume_used">Used of %1$s</string>
   <string name="storage_volume_used_total">Total used of %1$s</string>
-  <string name="storage_wizard_format_confirm_body">"This requires the ^1 to be formatted to make it secure. 
+  <string name="storage_wizard_format_confirm_body">"This requires the ^1 to be formatted to make it secure.
 
-After formatting, this ^1 will only work in this device. 
+After formatting, this ^1 will only work in this device.
 
 "&lt;b&gt;Formatting erases all data currently stored on the ^1.&lt;/b&gt;" To avoid losing the data, consider backing it up. "</string>
   <string name="storage_wizard_format_confirm_next">Erase &amp; format</string>
-  <string name="storage_wizard_format_confirm_public_body">"This requires the ^1 to be formatted. 
+  <string name="storage_wizard_format_confirm_public_body">"This requires the ^1 to be formatted.
 
 "&lt;b&gt;Formatting erases all data currently stored on the ^1.&lt;/b&gt;" To avoid losing the data, consider backing it up. "</string>
   <string name="storage_wizard_format_confirm_public_title">Format as portable storage</string>
@@ -3562,37 +3553,37 @@ After formatting, this ^1 will only work in this device.
   <string name="storage_wizard_init_internal_summary">For storing anything on this device only, including apps and photos. Requires formatting that prevents it from working with other devices.</string>
   <string name="storage_wizard_init_internal_title">Use as internal storage</string>
   <string name="storage_wizard_init_title">Set up your ^1</string>
-  <string name="storage_wizard_migrate_body">"You can move your photos, files, and some apps to this new ^1. 
+  <string name="storage_wizard_migrate_body">"You can move your photos, files, and some apps to this new ^1.
 
 The move takes about ^2 and will free ^3 on internal storage. Some apps won’t work while it’s underway."</string>
   <string name="storage_wizard_migrate_confirm_body">&lt;b&gt;The move takes about ^1. It will free ^2 on ^3.&lt;/b&gt;</string>
   <string name="storage_wizard_migrate_confirm_next">Move</string>
   <string name="storage_wizard_migrate_confirm_title">Move data now</string>
-  <string name="storage_wizard_migrate_details">"During the move: 
-• Don’t remove the ^1. 
-• Some apps won’t work correctly. 
+  <string name="storage_wizard_migrate_details">"During the move:
+• Don’t remove the ^1.
+• Some apps won’t work correctly.
 • Keep the device charged."</string>
   <string name="storage_wizard_migrate_later">Move later</string>
   <string name="storage_wizard_migrate_now">Move now</string>
   <string name="storage_wizard_migrate_progress_title">Moving data…</string>
   <string name="storage_wizard_migrate_title">Move data to new storage</string>
-  <string name="storage_wizard_move_confirm_body">"Moving ^1 and its data to ^2 will take only a few moments. You won’t be able to use the app until the move is complete. 
+  <string name="storage_wizard_move_confirm_body">"Moving ^1 and its data to ^2 will take only a few moments. You won’t be able to use the app until the move is complete.
 
 Don’t remove the ^2 during the move."</string>
   <string name="storage_wizard_move_confirm_title">Move ^1</string>
-  <string name="storage_wizard_move_progress_body">"Don’t remove the ^1 during the move. 
+  <string name="storage_wizard_move_progress_body">"Don’t remove the ^1 during the move.
 
 The ^2 app on this device won’t be available until the move is complete."</string>
   <string name="storage_wizard_move_progress_cancel">Cancel move</string>
   <string name="storage_wizard_move_progress_title">Moving ^1…</string>
   <string name="storage_wizard_ready_external_body">Your ^1 is all set to use with photos and other media.</string>
-  <string name="storage_wizard_ready_internal_body">"Your new ^1 is working. 
+  <string name="storage_wizard_ready_internal_body">"Your new ^1 is working.
 
 To move photos, files, and app data to this device, go to Settings &gt; Storage."</string>
   <string name="storage_wizard_ready_title">^1 is ready</string>
-  <string name="storage_wizard_slow_body">"This ^1 appears to be slow. 
+  <string name="storage_wizard_slow_body">"This ^1 appears to be slow.
 
-You can continue, but apps moved to this location may stutter and data transfers may take a long time. 
+You can continue, but apps moved to this location may stutter and data transfers may take a long time.
 
 Consider using a faster ^1 for better performance."</string>
   <string name="storageuse_settings_summary">View storage used by apps</string>
@@ -3629,7 +3620,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="sync_menu_sync_now">Sync now</string>
   <string name="sync_one_time_sync">"Touch to sync now
 %1$s"</string>
-  <string name="sync_plug">&lt;font fgcolor="#ffffffff"&gt;Welcome to Google sync!&lt;/font&gt;" 
+  <string name="sync_plug">&lt;font fgcolor="#ffffffff"&gt;Welcome to Google sync!&lt;/font&gt;"
 A Google approach to syncing data to allow access to your contacts, appointments, and more from wherever you are. "</string>
   <string name="sync_settings">Sync</string>
   <string name="sync_wifi_label">WLAN</string>

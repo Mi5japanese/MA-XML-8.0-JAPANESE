@@ -11,4 +11,4 @@ https://github.com/Acid-miuipolskapl/v8-XML-Compare
 
 What´s new in our repositorie?  | 当リポジトリの最新変更情報:
 
-https://github.com/ingbrzy/MA-XML-8.0-SPANISH/commits/master
+https://github.com/schipperke/MA-XML-8.0-JAPANESE/commits/master
